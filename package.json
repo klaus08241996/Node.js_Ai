@@ -1,21 +1,25 @@
 {
-  "name": "node.js_ai",
-  "version": "1.0.0",
-  "description": "I make the AI with node.js",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@tensorflow-models/coco-ssd": "^2.2.3",
-    "@tensorflow/tfjs": "^4.15.0",
-    "encoding": "^0.1.12",
-    "lodash": "^4.17.21",
-    "node-pre-gyp": "^0.17.0"
-  },
-  "devDependencies": {}
+    "name": "node.js_ai",
+    "version": "1.0.0",
+    "description": "I make the AI with node.js",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/klaus08241996/Node.js_Ai.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@tensorflow-models/coco-ssd": "^2.2.3",
+        "@tensorflow/tfjs": "^4.15.0",
+        "@tensorflow/tfjs-node": "^4.14.0",
+        "encoding": "^0.1.12",
+        "lodash": "^4.17.21",
+        "node-pre-gyp": "^0.17.0"
+    }
 }
